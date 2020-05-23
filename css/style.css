@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header start */
+/* top header */
+.top-header{
+    background: #252323;
+    height: 50px;
+    line-height: 50px;
+}
+.top-header .logo{
+    float: left;
+}
+.top-header .social{
+    float: right;
+}
+.top-header .social ul li{
+    display: inline-block;
+    list-style: none;
+}
+.top-header .social ul li a{
+    color: #c1c1c1;
+    padding: 0 10px;
+}
+/* Menu & search */
+.navbar #navbarnav{
+    margin-left: -36px;
+}
+.navbar .nav-link{
+    text-transform: uppercase;
+    text-align: center;
+}
+.navbar .active .nav-link {
+    color: #00bac6 !important; 
+    border-bottom: 3px solid #00bac6;
+}
+.navbar .nav-link:hover{
+    color: #00bac6 !important;
+    border-bottom: 3px solid #00bac6;
+}
+.form{
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: -180px;
+}
+.form input{
+    border: 0;
+}
+.form i{
+    color: #555;
+}
+/* header End */
+/* carousel start */
+.carousel-caption h1{
+    text-transform: uppercase;
+}
+/* carousel End */
+
+/* Service start */
+.service {
+    background-color: #FFF;
+}
+.service i{
+    color: #cacaca;
+    font-size: 100px;
+}
+.service i:hover{
+    color: #00bac6;
+    transition: 1s;
+    margin-top: 20px;
+}
+.service h3{
+    color: #818181;
+    text-transform: uppercase;
+}
+.service h3 span {
+    color: #646464;
+}
+.service p{
+    color: #9a9a9a;
+}
+.single-service h4{
+    color: #7b7b7b;
+}
+/* Service End */
+
+/* Galary start */
+.galary{
+    background-color: #eeeeee;
+}
+.galary .card{
+    background-color: transparent;
+}
+.galary .card img{
+    min-height: 195px;
+}
+/* Galary End */
+
+/* Contact start */
+.contact{
+    background-color: #4b4e54;
+}
+.contact h3{
+    color: #FFF;
+    padding-bottom: 10px;
+}
+.popular-post p{
+    color: #c0c0c0;
+}
+.popular-post p small{
+    color: #898989;
+}
+.popular-post i{
+    color: #00bac6;
+}
+.tags p{
+    color: #c1c1c1;
+}
+.tags p span{
+    color: #f5f5f5;
+    font-size: 18px;
+}
+.about-text p{
+    color: #c1c1c1;
+}
+.get-in-touch P{
+    color: #c1c1c1;
+}
+.get-in-touch small{
+    color: #c1c1c1;
+    font-size: 16px;
+    
+}
+.get-in-touch i{
+    color: #00bac6;
+    padding-right: 20px;
+}
+/* Contact End */
+
+/* Footer start  */
+footer{
+    background: #271f21;
+    line-height: 40px;
+}
+footer p{
+    float: left;
+    color: #c1c1c1;
+}
+footer .social{
+    float: right;
+}
+footer .social ul li{
+    display: inline-block;
+    list-style: none;
+}
+footer .social ul li a{
+    color: #c1c1c1;
+    padding: 0 10px;
+}
+/* Footer end */
